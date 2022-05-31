@@ -1,80 +1,80 @@
-//     //  Exercise 1  //
+    //  Exercise 1  //
 
-// var myArray=[];
-// if(!myArray.length){
-// 	// I am empty
-// }else{
-// 	// I am not empty
-// }
+var myArray=[];
+if(!myArray.length){
+	// I am empty
+}else{
+	// I am not empty
+}
 
-//     //  Exercise 2  //
+    //  Exercise 2  //
 
-// var emptyArray = {};
-// var emptyArray1 = new Object();
+var emptyArray = {};
+var emptyArray1 = new Object();
 
-//     //  Exercise 3  //
+    //  Exercise 3  //
 
-// var stringArr = ["Ali","Asad","Imran"];
-// console.log(stringArr);
+var stringArr = ["Ali","Asad","Imran"];
+console.log(stringArr);
 
-//     //  Exercise 4  //
+    //  Exercise 4  //
 
-// var NumberArr =[3,5,2,4];
-// console.log(NumberArr);
+var NumberArr =[3,5,2,4];
+console.log(NumberArr);
 
-//     //  Exercise 5  //
+    //  Exercise 5  //
 
-// var booleanArr = [ false,true, true, false];
-// console.log(booleanArr);
+var booleanArr = [ false,true, true, false];
+console.log(booleanArr);
 
-//     // Exercise # 6 //
+    // Exercise # 6 //
 
-// var mixArr = [0, "Mixed", 1, "Array", 2, true, 3, false,4,"string"];
-// console.log(mixArr);
+var mixArr = [0, "Mixed", 1, "Array", 2, true, 3, false,4,"string"];
+console.log(mixArr);
 
-// // Exercise # 7
+// Exercise # 7
 
-// var mobileNetworksPakistan = ["SCOM","Ufone","Jazz", "Telenor",  "Zong"];
-// console.log(mobileNetworksPakistan);
+var mobileNetworksPakistan = ["SCOM","Ufone","Jazz", "Telenor",  "Zong"];
+console.log(mobileNetworksPakistan);
 
-// // Exercise # 8
+// Exercise # 8
 
-// var qualificationsInPakistan = ["SSC", "HSC","BCS", "BS", "BCOM", "MS", "M. Phil.", "PhD"];
-// document.write("<h1>Qualifications:</h1>");
+var qualificationsInPakistan = ["SSC", "HSC","BCS", "BS", "BCOM", "MS", "M. Phil.", "PhD"];
+document.write("<h1>Qualifications:</h1>");
 
-// for (var i = 0; i < qualificationsInPakistan.length; i++ ){
-//     document.write(i + 1 + ") " + qualificationsInPakistan[i] + "<br />");
-// }
+for (var i = 0; i < qualificationsInPakistan.length; i++ ){
+    document.write(i + 1 + ") " + qualificationsInPakistan[i] + "<br />");
+}
 
 
 
-//     // Exercise # 9 //
+    // Exercise # 9 //
 
-// var topMovies2015 = [];
+var topMovies2015 = [];
 
-// topMovies2015.push("Avengers: Age Of Ultron");
-// topMovies2015.push("Spectre");
-// topMovies2015.push("Jurrasic World");
-// topMovies2015.push("Inside Out");
+topMovies2015.push("Avengers: Age Of Ultron");
+topMovies2015.push("Spectre");
+topMovies2015.push("Jurrasic World");
+topMovies2015.push("Inside Out");
 
-// document.write("<h1>Top movies of 2015:</h1>");
+document.write("<h1>Top movies of 2015:</h1>");
 
-// for (var i = 0; i < topMovies2015.length; i++ ){
-//     document.write(i + 1 + ") " + topMovies2015[i] + "<br />");
-// }
+for (var i = 0; i < topMovies2015.length; i++ ){
+    document.write(i + 1 + ") " + topMovies2015[i] + "<br />");
+}
 
-// document.write("<br /><h2>Length of the array: " + topMovies2015.length + "</h2>");
+document.write("<br /><h2>Length of the array: " + topMovies2015.length + "</h2>");
 
-//     // Exercise # 11 //
+    // Exercise # 11 //
 
-// studentName = ["Michael", "John", "Tony"];
-// obtainMarks = [320, 230, 480]
+studentName = ["Michael", "John", "Tony"];
+obtainMarks = [320, 230, 480]
 
-// document.write("<h1>Student Marks:</h1>");
+document.write("<h1>Student Marks:</h1>");
 
-// for (var i = 0; i < studentName.length; i++ ){
-//         document.write("Score of " + studentName[i] + " is " + obtainMarks[i] + ". Percentage: " + Math.round(((obtainMarks[i] / 500)*100)) + "%<br />");
-// }
+for (var i = 0; i < studentName.length; i++ ){
+        document.write("Score of " + studentName[i] + " is " + obtainMarks[i] + ". Percentage: " + Math.round(((obtainMarks[i] / 500)*100)) + "%<br />");
+}
 
 
 // Exercise # 13 //
